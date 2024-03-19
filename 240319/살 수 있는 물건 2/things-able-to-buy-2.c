@@ -12,10 +12,10 @@ int main() {
         printf("mask");
     }
     else if (a>=500){
-        printf("pen")
+        printf("pen");
     }
     else {
-        printf("no")
+        printf("no");
     }
     return 0;
 }
