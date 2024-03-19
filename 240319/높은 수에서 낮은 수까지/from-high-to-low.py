@@ -1,11 +1,9 @@
 a,b = input().split()
 a,b = int(a), int(b)
 
-if a>=b:
-    while a>=b:
-        print(a, end = " ")
-        a-=1
-else:
-    while b>=a:
+if b>=a:
+    for i in range(b,a-1, -1):
         print(b, end = " ")
-        b-=1
+else:
+    for i in range(a,b-1,-1):
+        print(a, end = " ")
