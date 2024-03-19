@@ -1,5 +1,12 @@
 c,n = input().split()
 n = int(n)
-if c = "A":
-    for i in range(n):
+i =1
+
+if c == "A":
+    for _ in range(n):
         print(i, end = " ")
+        i+=1
+else:
+    for _ in range(n):
+        print(n, end =" " )
+        n-=1
