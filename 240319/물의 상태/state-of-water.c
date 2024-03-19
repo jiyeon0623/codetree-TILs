@@ -8,11 +8,11 @@ int main() {
     if (a<0){
         printf("ice");
     }
-    else if (0<=a<100){
-        printf("water");
+    else if (a>=100){
+        printf("vapor");
     }
     else {
-        printf("vapor");
+        printf("water");
     }
     return 0;
 }
