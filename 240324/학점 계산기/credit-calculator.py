@@ -10,4 +10,4 @@ if grade >=4.0:
 elif grade >= 3.0:
     print("Good")
 else:
-    print("Poort")
+    print("Poor")
