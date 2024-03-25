@@ -3,11 +3,13 @@ a,b = int(a), int(b)
 cnt = [0]*b
 
 while True:
-    if a<=0:
+    if a<=1:
         break
+    
+      #나머지
+    cnt[a%b] +=1
     a = a//b #몫
-    add = a%b  #나머지
-    cnt[add] +=1
+    
 
 sum = 0
 for elem in cnt:
