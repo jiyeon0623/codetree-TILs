@@ -13,7 +13,7 @@ for i in range(3):
         else:
             new_arr[3]+=1
 
-if sum(new_arr)>=3:
+if new_arr[0]>=2:
     new_arr.append("E")
 
 for elem in new_arr:
