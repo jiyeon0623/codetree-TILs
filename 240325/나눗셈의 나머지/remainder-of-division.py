@@ -3,7 +3,7 @@ a,b = int(a), int(b)
 cnt = [0]*b
 
 while True:
-    if a<=1:
+    if a<=0:
         break
     a = a//b #몫
     add = a%b  #나머지
